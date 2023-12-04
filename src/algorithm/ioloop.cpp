@@ -19,9 +19,9 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "ioloop.h"
-#include "utils_include.h"
-#include "instance.h"
+#include "algorithm/ioloop.h"
+#include "utils/utils_include.h"
+#include "algorithm/instance.h"
 
 using namespace std;
 

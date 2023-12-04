@@ -19,10 +19,10 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "committer.h"
-#include "commitctx.h"
-#include "ioloop.h"
-#include "commdef.h"
+#include "algorithm/committer.h"
+#include "algorithm/commitctx.h"
+#include "algorithm/ioloop.h"
+#include "comm/commdef.h"
 
 namespace phxpaxos
 {

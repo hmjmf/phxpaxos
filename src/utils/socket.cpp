@@ -19,7 +19,7 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "socket.h"
+#include "utils/socket.h"
 #include <unistd.h>
 #include <fcntl.h>
 #include <algorithm>

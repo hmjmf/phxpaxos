@@ -20,9 +20,9 @@ See the AUTHORS file for names of contributors.
 */
 
 #include <string>
-#include "comm_include.h"
+#include "comm/comm_include.h"
 #include <map>
-#include "concurrent.h"
+#include "utils/concurrent.h"
 #include "gmock/gmock.h"
 
 using namespace phxpaxos;

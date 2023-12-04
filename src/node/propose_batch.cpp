@@ -19,11 +19,11 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "propose_batch.h"
+#include "node/propose_batch.h"
 #include <pthread.h>
-#include "utils_include.h"
-#include "comm_include.h"
-#include "sm_base.h"
+#include "utils/utils_include.h"
+#include "comm/comm_include.h"
+#include "sm-base/sm_base.h"
 
 #include <chrono>
 #include <vector>

@@ -19,7 +19,7 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "concurrent.h"
+#include "utils/concurrent.h"
 #include <functional>
 #include <iostream>
 #include <stdlib.h>

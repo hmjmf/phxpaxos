@@ -26,9 +26,9 @@ See the AUTHORS file for names of contributors.
 #include <vector>
 #include <string>
 #include <map>
-#include "comm_include.h"
+#include "comm/comm_include.h"
 #include "phxpaxos/storage.h"
-#include "log_store.h"
+#include "logstorage/log_store.h"
 
 namespace phxpaxos
 {

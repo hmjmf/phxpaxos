@@ -27,7 +27,7 @@ See the AUTHORS file for names of contributors.
 #include <sys/un.h>
 #include <arpa/inet.h>
 #include <string>
-#include "util.h"
+#include "utils/util.h"
 
 namespace phxpaxos {
 

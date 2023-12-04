@@ -19,10 +19,10 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "proposer.h"
-#include "learner.h"
+#include "algorithm/proposer.h"
+#include "algorithm/learner.h"
 #include "phxpaxos/sm.h"
-#include "instance.h"
+#include "algorithm/instance.h"
 
 namespace phxpaxos
 {

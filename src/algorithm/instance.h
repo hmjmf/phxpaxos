@@ -21,19 +21,19 @@ See the AUTHORS file for names of contributors.
 
 #pragma once
 
-#include "base.h"
-#include "acceptor.h"
-#include "learner.h"
-#include "proposer.h"
-#include "msg_transport.h"
+#include "algorithm/base.h"
+#include "algorithm/acceptor.h"
+#include "algorithm/learner.h"
+#include "algorithm/proposer.h"
+#include "comm/msg_transport.h"
 #include "phxpaxos/sm.h"
-#include "sm_base.h"
+#include "sm-base/sm_base.h"
 #include "phxpaxos/storage.h"
-#include "comm_include.h"
-#include "ioloop.h"
-#include "commitctx.h"
-#include "committer.h"
-#include "cp_mgr.h"
+#include "comm/comm_include.h"
+#include "algorithm/ioloop.h"
+#include "algorithm/commitctx.h"
+#include "algorithm/committer.h"
+#include "checkpoint/cp_mgr.h"
 
 namespace phxpaxos
 {

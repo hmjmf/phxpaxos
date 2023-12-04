@@ -21,8 +21,8 @@ See the AUTHORS file for names of contributors.
 
 #pragma once
 
-#include "replayer.h"
-#include "cleaner.h"
+#include "checkpoint/replayer.h"
+#include "checkpoint/cleaner.h"
 #include "phxpaxos/options.h"
 #include <set>
 

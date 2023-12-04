@@ -19,7 +19,7 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "communicate.h"
+#include "communicate/communicate.h"
 #include "comm/comm_include.h"
 #include "comm/commdef.h"
 

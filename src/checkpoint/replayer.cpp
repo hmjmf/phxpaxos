@@ -19,12 +19,12 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "replayer.h"
+#include "checkpoint/replayer.h"
 #include "phxpaxos/storage.h"
-#include "sm_base.h"
-#include "comm_include.h"
-#include "config_include.h"
-#include "cp_mgr.h"
+#include "sm-base/sm_base.h"
+#include "comm/comm_include.h"
+#include "config/config_include.h"
+#include "checkpoint/cp_mgr.h"
 
 namespace phxpaxos
 {

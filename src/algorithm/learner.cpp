@@ -19,11 +19,11 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "learner.h"
-#include "acceptor.h"
+#include "algorithm/learner.h"
+#include "algorithm/acceptor.h"
 #include "utils/crc32.h"
-#include "cp_mgr.h"
-#include "sm_base.h"
+#include "checkpoint/cp_mgr.h"
+#include "sm-base/sm_base.h"
 
 namespace phxpaxos
 {

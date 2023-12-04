@@ -19,8 +19,8 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "event_base.h"
-#include "event_loop.h"
+#include "communicate/tcp/event_base.h"
+#include "communicate/tcp/event_loop.h"
 
 namespace phxpaxos
 {

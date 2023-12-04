@@ -22,7 +22,7 @@ See the AUTHORS file for names of contributors.
 #include "logstorage/db.h"
 #include <stdio.h>
 #include <string>
-#include "config_include.h"
+#include "config/config_include.h"
 
 using namespace std;
 using namespace phxpaxos;

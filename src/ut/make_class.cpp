@@ -19,9 +19,9 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "make_class.h"
+#include "ut/make_class.h"
 #include "phxpaxos/options.h"
-#include "mock_class.h"
+#include "ut/mock_class.h"
 
 using ::testing::_;
 using ::testing::Return;

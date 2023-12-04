@@ -19,7 +19,7 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "master_mgr.h"
+#include "master/master_mgr.h"
 #include "comm/comm_include.h"
 #include "comm/commdef.h"
 

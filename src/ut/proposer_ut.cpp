@@ -21,8 +21,8 @@ See the AUTHORS file for names of contributors.
 
 #include <string>
 #include "gmock/gmock.h"
-#include "make_class.h"
-#include "mock_class.h"
+#include "ut/make_class.h"
+#include "ut/mock_class.h"
 
 using namespace phxpaxos;
 using namespace std;

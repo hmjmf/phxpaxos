@@ -21,15 +21,15 @@ See the AUTHORS file for names of contributors.
 
 #pragma once
 
-#include "base.h"
+#include "algorithm/base.h"
 #include <string>
-#include "commdef.h"
-#include "comm_include.h"
-#include "paxos_log.h"
-#include "ioloop.h"
-#include "learner_sender.h"
-#include "checkpoint_sender.h"
-#include "checkpoint_receiver.h"
+#include "comm/commdef.h"
+#include "comm/comm_include.h"
+#include "logstorage/paxos_log.h"
+#include "algorithm/ioloop.h"
+#include "algorithm/learner_sender.h"
+#include "algorithm/checkpoint_sender.h"
+#include "algorithm/checkpoint_receiver.h"
 
 namespace phxpaxos
 {

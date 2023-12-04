@@ -23,7 +23,7 @@ See the AUTHORS file for names of contributors.
 
 #include <mutex>
 #include "phxpaxos/log.h"
-#include "utils_include.h"
+#include "utils/utils_include.h"
 #include <string>
 
 namespace phxpaxos

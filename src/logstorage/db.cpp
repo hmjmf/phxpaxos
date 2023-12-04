@@ -19,9 +19,9 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "db.h"
-#include "commdef.h"
-#include "utils_include.h"
+#include "logstorage/db.h"
+#include "comm/commdef.h"
+#include "utils/utils_include.h"
 
 namespace phxpaxos
 {

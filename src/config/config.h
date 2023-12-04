@@ -22,8 +22,8 @@ See the AUTHORS file for names of contributors.
 #pragma once
 
 #include <vector>
-#include "commdef.h"
-#include "system_v_sm.h"
+#include "comm/commdef.h"
+#include "config/system_v_sm.h"
 
 namespace phxpaxos
 {

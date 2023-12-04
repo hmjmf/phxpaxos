@@ -21,7 +21,7 @@ See the AUTHORS file for names of contributors.
 
 #include <set>
 #include "comm/commdef.h"
-#include "sm_base.h"
+#include "sm-base/sm_base.h"
 #include <string.h>
 #include "comm/comm_include.h"
 

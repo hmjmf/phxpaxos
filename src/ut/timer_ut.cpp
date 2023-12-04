@@ -20,7 +20,7 @@ See the AUTHORS file for names of contributors.
 */
 
 #include <string>
-#include "comm_include.h"
+#include "comm/comm_include.h"
 #include <math.h>
 #include <map>
 #include "gmock/gmock.h"

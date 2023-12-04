@@ -19,7 +19,7 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "test_server.h"
+#include "test/test_server.h"
 #include <mutex>
 #include <stdio.h>
 #include <iostream>
@@ -32,7 +32,7 @@ See the AUTHORS file for names of contributors.
 #include <math.h>
 #include <sys/time.h>
 #include "phxpaxos/options.h"
-#include "utils_include.h"
+#include "utils/utils_include.h"
 #include <map>
 #include <vector>
 #include <algorithm>

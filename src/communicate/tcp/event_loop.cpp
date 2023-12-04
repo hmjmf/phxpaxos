@@ -19,12 +19,12 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "event_loop.h"
-#include "event_base.h"
-#include "tcp_acceptor.h"
-#include "tcp_client.h"
-#include "comm_include.h"
-#include "message_event.h"
+#include "communicate/tcp/event_loop.h"
+#include "communicate/tcp/event_base.h"
+#include "communicate/tcp/tcp_acceptor.h"
+#include "communicate/tcp/tcp_client.h"
+#include "comm/comm_include.h"
+#include "communicate/tcp/message_event.h"
 #include "phxpaxos/network.h"
 
 using namespace std;

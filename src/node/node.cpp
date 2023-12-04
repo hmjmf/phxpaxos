@@ -20,7 +20,7 @@ See the AUTHORS file for names of contributors.
 */
 
 #include "phxpaxos/node.h"
-#include "pnode.h"
+#include "node/pnode.h"
 
 namespace phxpaxos
 {

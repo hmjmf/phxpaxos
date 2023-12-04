@@ -19,7 +19,7 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "udp.h"
+#include "communicate/udp.h"
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
@@ -28,8 +28,8 @@ See the AUTHORS file for names of contributors.
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
-#include "dfnetwork.h"
-#include "comm_include.h"
+#include "communicate/dfnetwork.h"
+#include "comm/comm_include.h"
 #include <poll.h>
 
 namespace phxpaxos 

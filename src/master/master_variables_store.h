@@ -25,7 +25,7 @@ See the AUTHORS file for names of contributors.
 #include <vector>
 #include <inttypes.h>
 #include "phxpaxos/storage.h"
-#include "paxos_msg.pb.h"
+#include "comm/paxos_msg.pb.h"
 
 namespace phxpaxos
 {

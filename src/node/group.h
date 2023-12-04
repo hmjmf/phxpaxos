@@ -22,11 +22,11 @@ See the AUTHORS file for names of contributors.
 #pragma once
 
 #include <thread>
-#include "comm_include.h"
-#include "config_include.h"
-#include "instance.h"
-#include "cleaner.h"
-#include "communicate.h"
+#include "comm/comm_include.h"
+#include "config/config_include.h"
+#include "algorithm/instance.h"
+#include "checkpoint/cleaner.h"
+#include "communicate/communicate.h"
 #include "phxpaxos/options.h"
 #include "phxpaxos/network.h"
 

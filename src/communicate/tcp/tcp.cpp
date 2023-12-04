@@ -19,7 +19,7 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "tcp.h"
+#include "communicate/tcp/tcp.h"
 #include "phxpaxos/network.h"
 
 namespace phxpaxos

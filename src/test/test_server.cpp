@@ -19,14 +19,14 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "test_server.h"
+#include "test/test_server.h"
 #include <assert.h>
 #include <string>
 #include <unistd.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
-#include "utils_include.h"
+#include "utils/utils_include.h"
 
 using namespace phxpaxos;
 using namespace std;

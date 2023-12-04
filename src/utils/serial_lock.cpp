@@ -19,8 +19,8 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "serial_lock.h"
-#include "util.h"
+#include "utils/serial_lock.h"
+#include "utils/util.h"
 
 namespace phxpaxos
 {

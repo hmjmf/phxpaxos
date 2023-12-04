@@ -19,8 +19,8 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "checkpoint_receiver.h"
-#include "comm_include.h"
+#include "algorithm/checkpoint_receiver.h"
+#include "comm/comm_include.h"
 #include <vector>
 #include <sys/types.h>
 #include <sys/stat.h>

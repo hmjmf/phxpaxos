@@ -21,7 +21,7 @@ See the AUTHORS file for names of contributors.
 
 #pragma once
 
-#include "event_base.h"
+#include "communicate/tcp/event_base.h"
 #include <string>
 
 namespace phxpaxos

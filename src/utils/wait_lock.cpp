@@ -20,9 +20,9 @@ See the AUTHORS file for names of contributors.
 */
 
 #include <random>
-#include "wait_lock.h"
+#include "utils/wait_lock.h"
 #include <stdio.h>
-#include "utils_include.h"
+#include "utils/utils_include.h"
 
 namespace phxpaxos
 {

@@ -21,10 +21,10 @@ See the AUTHORS file for names of contributors.
 
 #pragma once
 
-#include "base.h"
+#include "algorithm/base.h"
 #include <string>
-#include "ioloop.h"
-#include "msg_counter.h"
+#include "algorithm/ioloop.h"
+#include "algorithm/msg_counter.h"
 
 namespace phxpaxos
 {

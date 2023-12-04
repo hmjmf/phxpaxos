@@ -22,7 +22,7 @@ See the AUTHORS file for names of contributors.
 #pragma once
 
 #include "phxpaxos/node.h"
-#include "test_sm.h"
+#include "test/test_sm.h"
 #include <string>
 #include <vector>
 

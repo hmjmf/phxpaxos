@@ -21,7 +21,7 @@ See the AUTHORS file for names of contributors.
 
 #pragma once
 
-#include "commdef.h"
+#include "comm/commdef.h"
 
 namespace phxpaxos
 {

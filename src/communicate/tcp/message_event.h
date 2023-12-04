@@ -22,8 +22,8 @@ See the AUTHORS file for names of contributors.
 #pragma once
 
 #include <mutex>
-#include "event_base.h"
-#include "utils_include.h"
+#include "communicate/tcp/event_base.h"
+#include "utils/utils_include.h"
 #include "comm/commdef.h"
 #include "comm/comm_include.h"
 

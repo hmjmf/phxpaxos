@@ -23,7 +23,7 @@ See the AUTHORS file for names of contributors.
 
 #include <string>
 #include "comm/comm_include.h"
-#include "config_include.h"
+#include "config/config_include.h"
 
 namespace phxpaxos
 {

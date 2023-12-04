@@ -19,11 +19,11 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "checkpoint_sender.h"
-#include "comm_include.h"
-#include "learner.h"
-#include "sm_base.h"
-#include "cp_mgr.h"
+#include "algorithm/checkpoint_sender.h"
+#include "comm/comm_include.h"
+#include "algorithm/learner.h"
+#include "sm-base/sm_base.h"
+#include "checkpoint/cp_mgr.h"
 #include "utils/crc32.h"
 #include <sys/types.h>
 #include <sys/stat.h>

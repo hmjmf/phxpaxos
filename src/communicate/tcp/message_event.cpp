@@ -19,10 +19,10 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "message_event.h"
+#include "communicate/tcp/message_event.h"
 #include "comm/commdef.h"
 #include "phxpaxos/network.h"
-#include "event_loop.h"
+#include "communicate/tcp/event_loop.h"
 #include "comm/comm_include.h"
 
 namespace phxpaxos

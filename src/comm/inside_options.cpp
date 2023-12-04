@@ -19,9 +19,9 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "inside_options.h"
-#include "commdef.h"
-#include "utils_include.h"
+#include "comm/inside_options.h"
+#include "comm/commdef.h"
+#include "utils/utils_include.h"
 
 namespace phxpaxos
 {

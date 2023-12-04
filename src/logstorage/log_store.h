@@ -23,10 +23,10 @@ See the AUTHORS file for names of contributors.
 
 #include <string>
 #include <mutex>
-#include "commdef.h"
-#include "utils_include.h"
-#include "commdef.h"
-#include "comm_include.h"
+#include "comm/commdef.h"
+#include "utils/utils_include.h"
+#include "comm/commdef.h"
+#include "comm/comm_include.h"
 
 namespace phxpaxos
 {

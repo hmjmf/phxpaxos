@@ -19,8 +19,8 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "paxos_log.h"
-#include "db.h"
+#include "logstorage/paxos_log.h"
+#include "logstorage/db.h"
 
 namespace phxpaxos
 {

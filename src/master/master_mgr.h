@@ -21,10 +21,10 @@ See the AUTHORS file for names of contributors.
 
 #pragma once
 
-#include "commdef.h"
-#include "utils_include.h"
+#include "comm/commdef.h"
+#include "utils/utils_include.h"
 #include "phxpaxos/node.h"
-#include "master_sm.h"
+#include "master/master_sm.h"
 
 namespace phxpaxos 
 {

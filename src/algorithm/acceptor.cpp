@@ -19,8 +19,8 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "acceptor.h"
-#include "paxos_log.h"
+#include "algorithm/acceptor.h"
+#include "logstorage/paxos_log.h"
 #include "utils/crc32.h"
 
 namespace phxpaxos

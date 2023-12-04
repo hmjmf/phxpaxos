@@ -21,10 +21,10 @@ See the AUTHORS file for names of contributors.
 
 #pragma once
 
-#include "event_loop.h"
-#include "tcp_acceptor.h"
-#include "tcp_client.h"
-#include "utils_include.h"
+#include "communicate/tcp/event_loop.h"
+#include "communicate/tcp/tcp_acceptor.h"
+#include "communicate/tcp/tcp_client.h"
+#include "utils/utils_include.h"
 
 namespace phxpaxos
 {

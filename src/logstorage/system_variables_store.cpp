@@ -19,8 +19,8 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "system_variables_store.h"
-#include "db.h"
+#include "logstorage/system_variables_store.h"
+#include "logstorage/db.h"
 
 namespace phxpaxos
 {

@@ -19,7 +19,7 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "bench_sm.h"
+#include "benchmark/bench_sm.h"
 
 using namespace phxpaxos;
 

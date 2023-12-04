@@ -19,7 +19,7 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "notifier_pool.h"
+#include "utils/notifier_pool.h"
 #include <assert.h>
 #include <unistd.h>
 #include <fcntl.h>

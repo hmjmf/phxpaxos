@@ -20,7 +20,7 @@ See the AUTHORS file for names of contributors.
 */
 
 #include "phxpaxos/sm.h"
-#include "comm_include.h"
+#include "comm/comm_include.h"
 
 namespace phxpaxos
 {

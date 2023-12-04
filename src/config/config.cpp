@@ -19,10 +19,10 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "config.h"
+#include "config/config.h"
 #include <math.h>
 #include "inttypes.h"
-#include "comm_include.h"
+#include "comm/comm_include.h"
 
 namespace phxpaxos
 {

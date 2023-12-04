@@ -19,8 +19,8 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "notify.h"
-#include "commdef.h"
+#include "communicate/tcp/notify.h"
+#include "comm/commdef.h"
 #include <assert.h>
 #include <unistd.h>
 #include <fcntl.h>

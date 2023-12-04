@@ -19,8 +19,8 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "timer.h"
-#include "util.h"
+#include "utils/timer.h"
+#include "utils/util.h"
 #include <algorithm> 
 
 namespace phxpaxos

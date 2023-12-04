@@ -19,8 +19,8 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "dfnetwork.h"
-#include "udp.h"
+#include "communicate/dfnetwork.h"
+#include "communicate/udp.h"
 
 namespace phxpaxos 
 {

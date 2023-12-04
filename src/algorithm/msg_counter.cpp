@@ -19,9 +19,9 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "msg_counter.h"
+#include "algorithm/msg_counter.h"
 #include <math.h>
-#include "config_include.h"
+#include "config/config_include.h"
 
 namespace phxpaxos
 {

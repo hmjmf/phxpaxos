@@ -21,10 +21,10 @@ See the AUTHORS file for names of contributors.
 
 #pragma once
 
-#include "system_variables_store.h"
+#include "logstorage/system_variables_store.h"
 #include "phxpaxos/sm.h"
-#include "commdef.h"
-#include "inside_sm.h"
+#include "comm/commdef.h"
+#include "config/inside_sm.h"
 #include <set>
 
 namespace phxpaxos

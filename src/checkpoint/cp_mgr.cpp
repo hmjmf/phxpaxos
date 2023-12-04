@@ -19,11 +19,11 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "cp_mgr.h"
-#include "comm_include.h"
-#include "sm_base.h"
+#include "checkpoint/cp_mgr.h"
+#include "comm/comm_include.h"
+#include "sm-base/sm_base.h"
 #include "phxpaxos/storage.h"
-#include "config_include.h"
+#include "config/config_include.h"
 
 namespace phxpaxos
 {

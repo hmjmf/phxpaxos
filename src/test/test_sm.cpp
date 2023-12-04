@@ -19,9 +19,9 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "test_sm.h"
-#include "commdef.h"
-#include "utils_include.h"
+#include "test/test_sm.h"
+#include "comm/commdef.h"
+#include "utils/utils_include.h"
 
 using namespace phxpaxos;
 using namespace std;

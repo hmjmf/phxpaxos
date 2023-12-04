@@ -21,7 +21,7 @@ See the AUTHORS file for names of contributors.
 
 #pragma once
 
-#include "util.h"
+#include "utils/util.h"
 #include <deque>
 #include <pthread.h>
 #include <signal.h>

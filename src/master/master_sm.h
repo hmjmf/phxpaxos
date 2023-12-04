@@ -25,11 +25,11 @@ See the AUTHORS file for names of contributors.
 #include "phxpaxos/sm.h"
 #include "comm/commdef.h"
 #include "phxpaxos/def.h"
-#include "config_include.h"
-#include "master_sm.pb.h"
-#include "master_sm.h"
-#include "master_variables_store.h"
-#include "utils_include.h"
+#include "config/config_include.h"
+#include "master/master_sm.pb.h"
+#include "master/master_sm.h"
+#include "master/master_variables_store.h"
+#include "utils/utils_include.h"
 
 namespace phxpaxos 
 {

@@ -20,12 +20,12 @@ See the AUTHORS file for names of contributors.
 */
 
 #include <stdio.h>
-#include "tcp_acceptor.h"
-#include "commdef.h"
-#include "event_loop.h"
+#include "communicate/tcp/tcp_acceptor.h"
+#include "comm/commdef.h"
+#include "communicate/tcp/event_loop.h"
 #include "phxpaxos/network.h"
-#include "message_event.h"
-#include "comm_include.h"
+#include "communicate/tcp/message_event.h"
+#include "comm/comm_include.h"
 #include <poll.h>
 
 namespace phxpaxos

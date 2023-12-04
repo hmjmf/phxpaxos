@@ -19,9 +19,9 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "base.h"
-#include "msg_transport.h"
-#include "instance.h"
+#include "algorithm/base.h"
+#include "comm/msg_transport.h"
+#include "algorithm/instance.h"
 #include "utils/crc32.h"
 
 namespace phxpaxos 

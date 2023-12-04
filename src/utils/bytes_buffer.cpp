@@ -19,7 +19,7 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "bytes_buffer.h"
+#include "utils/bytes_buffer.h"
 #include <stdio.h>
 #include <assert.h>
 

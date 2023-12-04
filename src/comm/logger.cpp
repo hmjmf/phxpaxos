@@ -19,7 +19,7 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "logger.h"
+#include "comm/logger.h"
 #include <string>
 #include <stdarg.h>
 using namespace std;

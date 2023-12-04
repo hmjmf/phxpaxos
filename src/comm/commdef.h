@@ -24,10 +24,10 @@ See the AUTHORS file for names of contributors.
 #include <inttypes.h>
 #include <typeinfo>
 #include "phxpaxos/options.h"
-#include "inside_options.h"
+#include "comm/inside_options.h"
 #include "phxpaxos/def.h"
 #include <string>
-#include "logger.h"
+#include "comm/logger.h"
 
 using std::string;
 

@@ -19,8 +19,8 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "learner_sender.h"
-#include "learner.h"
+#include "algorithm/learner_sender.h"
+#include "algorithm/learner.h"
 
 namespace phxpaxos
 {

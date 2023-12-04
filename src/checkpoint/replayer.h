@@ -21,8 +21,8 @@ See the AUTHORS file for names of contributors.
 
 #pragma once
 
-#include "utils_include.h"
-#include "paxos_log.h"
+#include "utils/utils_include.h"
+#include "logstorage/paxos_log.h"
 
 namespace phxpaxos
 {

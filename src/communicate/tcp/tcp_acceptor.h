@@ -23,8 +23,8 @@ See the AUTHORS file for names of contributors.
 
 #include <vector>
 #include <mutex>
-#include "utils_include.h"
-#include "message_event.h"
+#include "utils/utils_include.h"
+#include "communicate/tcp/message_event.h"
 
 namespace phxpaxos
 {

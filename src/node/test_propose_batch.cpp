@@ -19,9 +19,9 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors.
 */
 
-#include "propose_batch.h"
+#include "node/propose_batch.h"
 #include <algorithm>
-#include "utils_include.h"
+#include "utils/utils_include.h"
 
 using namespace phxpaxos;
 using namespace std;

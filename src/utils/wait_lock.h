@@ -21,7 +21,7 @@ See the AUTHORS file for names of contributors.
 
 #pragma once
 
-#include "serial_lock.h"
+#include "utils/serial_lock.h"
 
 namespace phxpaxos
 {

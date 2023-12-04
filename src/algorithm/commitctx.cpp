@@ -19,7 +19,7 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "commitctx.h"
+#include "algorithm/commitctx.h"
 #include "phxpaxos/sm.h"
 
 namespace phxpaxos

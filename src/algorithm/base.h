@@ -23,8 +23,8 @@ See the AUTHORS file for names of contributors.
 
 #include "comm/commdef.h"
 #include "comm/comm_include.h"
-#include "config_include.h"
-#include "msg_transport.h"
+#include "config/config_include.h"
+#include "comm/msg_transport.h"
 
 namespace phxpaxos 
 {

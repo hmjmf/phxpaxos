@@ -24,8 +24,8 @@ See the AUTHORS file for names of contributors.
 #include "phxpaxos/network.h"
 #include "phxpaxos/options.h"
 #include <map>
-#include "msg_transport.h"
-#include "config_include.h"
+#include "comm/msg_transport.h"
+#include "config/config_include.h"
 
 namespace phxpaxos
 {

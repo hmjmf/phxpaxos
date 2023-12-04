@@ -19,7 +19,7 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "bench_server.h"
+#include "benchmark/bench_server.h"
 #include <stdio.h>
 #include <iostream>
 #include <string>

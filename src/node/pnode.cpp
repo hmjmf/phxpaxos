@@ -19,7 +19,7 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "pnode.h"
+#include "node/pnode.h"
 
 namespace phxpaxos
 {

@@ -23,8 +23,8 @@ See the AUTHORS file for names of contributors.
 
 #include <map>
 #include <sys/epoll.h>
-#include "timer.h"
-#include "notify.h"
+#include "utils/timer.h"
+#include "communicate/tcp/notify.h"
 
 namespace phxpaxos
 {

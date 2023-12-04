@@ -19,10 +19,10 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "system_v_sm.h"
+#include "config/system_v_sm.h"
 #include "comm/commdef.h"
 #include <math.h>
-#include "msg_transport.h"
+#include "comm/msg_transport.h"
 
 namespace phxpaxos
 {

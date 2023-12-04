@@ -22,7 +22,7 @@ See the AUTHORS file for names of contributors.
 #pragma once
 
 #include <string>
-#include "udp.h"
+#include "communicate/udp.h"
 #include "communicate/tcp/tcp.h"
 #include "phxpaxos/network.h"
 

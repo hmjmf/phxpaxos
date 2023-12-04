@@ -21,12 +21,12 @@ See the AUTHORS file for names of contributors.
 
 #pragma once
 
-#include "config_include.h"
-#include "instance.h"
-#include "communicate.h"
-#include "acceptor.h"
-#include "proposer.h"
-#include "mock_class.h"
+#include "config/config_include.h"
+#include "algorithm/instance.h"
+#include "communicate/communicate.h"
+#include "algorithm/acceptor.h"
+#include "algorithm/proposer.h"
+#include "ut/mock_class.h"
 
 namespace phxpaxos
 {

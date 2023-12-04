@@ -19,8 +19,8 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include "master_sm.h"
-#include "master_sm.pb.h"
+#include "master/master_sm.h"
+#include "master/master_sm.pb.h"
 #include <math.h>
 #include "comm/commdef.h"
 #include "comm/comm_include.h"

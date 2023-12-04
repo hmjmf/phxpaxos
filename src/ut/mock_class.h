@@ -26,9 +26,9 @@ See the AUTHORS file for names of contributors.
 #include "phxpaxos/network.h"
 #include "phxpaxos/storage.h"
 #include "phxpaxos/breakpoint.h"
-#include "ioloop.h"
-#include "learner.h"
-#include "acceptor.h"
+#include "algorithm/ioloop.h"
+#include "algorithm/learner.h"
+#include "algorithm/acceptor.h"
 
 class MockNetWork : public phxpaxos::NetWork
 {
