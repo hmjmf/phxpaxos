@@ -20,10 +20,10 @@ See the AUTHORS file for names of contributors.
 */
 
 #include <set>
-#include "commdef.h"
+#include "comm/commdef.h"
 #include "sm_base.h"
 #include <string.h>
-#include "comm_include.h"
+#include "comm/comm_include.h"
 
 using namespace std;
 

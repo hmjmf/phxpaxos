@@ -21,8 +21,8 @@ See the AUTHORS file for names of contributors.
 
 #pragma once
 
-#include "commdef.h"
-#include "comm_include.h"
+#include "comm/commdef.h"
+#include "comm/comm_include.h"
 #include "config_include.h"
 #include "msg_transport.h"
 

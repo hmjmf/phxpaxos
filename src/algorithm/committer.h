@@ -23,7 +23,7 @@ See the AUTHORS file for names of contributors.
 
 #include <string>
 #include <inttypes.h>
-#include "comm_include.h"
+#include "comm/comm_include.h"
 #include "sm_base.h"
 #include "config_include.h"
 

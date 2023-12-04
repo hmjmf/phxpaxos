@@ -20,8 +20,8 @@ See the AUTHORS file for names of contributors.
 */
 
 #include "master_mgr.h"
-#include "comm_include.h"
-#include "commdef.h"
+#include "comm/comm_include.h"
+#include "comm/commdef.h"
 
 namespace phxpaxos 
 {

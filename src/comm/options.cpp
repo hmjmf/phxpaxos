@@ -20,7 +20,7 @@ See the AUTHORS file for names of contributors.
 */
 
 #include "phxpaxos/options.h"
-#include "commdef.h"
+#include "comm/commdef.h"
 #include <assert.h>
 #include <sys/socket.h>
 #include <netinet/in.h>

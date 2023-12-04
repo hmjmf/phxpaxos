@@ -21,7 +21,7 @@ See the AUTHORS file for names of contributors.
 
 #pragma once
 
-#include "commdef.h"
+#include "comm/commdef.h"
 #include "utils_include.h"
 #include "phxpaxos/node.h"
 #include <mutex>

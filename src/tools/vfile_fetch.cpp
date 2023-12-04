@@ -1,4 +1,4 @@
-#include "log_store.h"
+#include "logstorage/log_store.h"
 #include <stdio.h>
 #include <string>
 #include <sys/types.h>

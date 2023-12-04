@@ -21,7 +21,7 @@ See the AUTHORS file for names of contributors.
 
 #include "learner.h"
 #include "acceptor.h"
-#include "crc32.h"
+#include "utils/crc32.h"
 #include "cp_mgr.h"
 #include "sm_base.h"
 

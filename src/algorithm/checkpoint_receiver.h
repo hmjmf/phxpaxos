@@ -24,7 +24,7 @@ See the AUTHORS file for names of contributors.
 #include <map>
 #include <string>
 #include "phxpaxos/options.h"
-#include "comm_include.h"
+#include "comm/comm_include.h"
 #include "config_include.h"
 
 namespace phxpaxos

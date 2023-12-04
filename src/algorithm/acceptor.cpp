@@ -21,7 +21,7 @@ See the AUTHORS file for names of contributors.
 
 #include "acceptor.h"
 #include "paxos_log.h"
-#include "crc32.h"
+#include "utils/crc32.h"
 
 namespace phxpaxos
 {

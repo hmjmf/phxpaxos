@@ -22,7 +22,7 @@ See the AUTHORS file for names of contributors.
 #pragma once
 
 #include <string>
-#include "comm_include.h"
+#include "comm/comm_include.h"
 #include "config_include.h"
 
 namespace phxpaxos

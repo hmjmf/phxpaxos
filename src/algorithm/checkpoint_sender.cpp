@@ -24,7 +24,7 @@ See the AUTHORS file for names of contributors.
 #include "learner.h"
 #include "sm_base.h"
 #include "cp_mgr.h"
-#include "crc32.h"
+#include "utils/crc32.h"
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>

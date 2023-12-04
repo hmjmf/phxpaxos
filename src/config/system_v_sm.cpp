@@ -20,7 +20,7 @@ See the AUTHORS file for names of contributors.
 */
 
 #include "system_v_sm.h"
-#include "commdef.h"
+#include "comm/commdef.h"
 #include <math.h>
 #include "msg_transport.h"
 

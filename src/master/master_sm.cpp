@@ -22,8 +22,8 @@ See the AUTHORS file for names of contributors.
 #include "master_sm.h"
 #include "master_sm.pb.h"
 #include <math.h>
-#include "commdef.h"
-#include "comm_include.h"
+#include "comm/commdef.h"
+#include "comm/comm_include.h"
 
 namespace phxpaxos 
 {

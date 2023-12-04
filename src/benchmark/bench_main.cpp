@@ -31,7 +31,7 @@ See the AUTHORS file for names of contributors.
 #include <math.h>
 #include <sys/time.h>
 #include "phxpaxos/options.h"
-#include "utils_include.h"
+#include "utils/utils_include.h"
 
 using namespace bench;
 using namespace phxpaxos;

@@ -22,10 +22,10 @@ See the AUTHORS file for names of contributors.
 #pragma once
 
 #include <map>
-#include "timer.h"
-#include "utils_include.h"
+#include "utils/timer.h"
+#include "utils/utils_include.h"
 #include <string>
-#include "comm_include.h"
+#include "comm/comm_include.h"
 #include <queue>
 #include "config_include.h"
 

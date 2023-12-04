@@ -20,10 +20,10 @@ See the AUTHORS file for names of contributors.
 */
 
 #include "message_event.h"
-#include "commdef.h"
+#include "comm/commdef.h"
 #include "phxpaxos/network.h"
 #include "event_loop.h"
-#include "comm_include.h"
+#include "comm/comm_include.h"
 
 namespace phxpaxos
 {

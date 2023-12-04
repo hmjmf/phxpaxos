@@ -24,8 +24,8 @@ See the AUTHORS file for names of contributors.
 #include <mutex>
 #include "event_base.h"
 #include "utils_include.h"
-#include "commdef.h"
-#include "comm_include.h"
+#include "comm/commdef.h"
+#include "comm/comm_include.h"
 
 namespace phxpaxos
 {

@@ -20,8 +20,8 @@ See the AUTHORS file for names of contributors.
 */
 
 #include "communicate.h"
-#include "comm_include.h"
-#include "commdef.h"
+#include "comm/comm_include.h"
+#include "comm/commdef.h"
 
 namespace phxpaxos
 {

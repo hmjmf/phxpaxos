@@ -23,7 +23,7 @@ See the AUTHORS file for names of contributors.
 
 #include <mutex>
 #include "phxpaxos/sm.h"
-#include "commdef.h"
+#include "comm/commdef.h"
 #include "phxpaxos/def.h"
 #include "config_include.h"
 #include "master_sm.pb.h"

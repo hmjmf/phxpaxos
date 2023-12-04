@@ -22,7 +22,7 @@ See the AUTHORS file for names of contributors.
 #include "base.h"
 #include "msg_transport.h"
 #include "instance.h"
-#include "crc32.h"
+#include "utils/crc32.h"
 
 namespace phxpaxos 
 {

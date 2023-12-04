@@ -19,7 +19,7 @@ permissions and limitations under the License.
 See the AUTHORS file for names of contributors. 
 */
 
-#include <crc32.h>
+#include "utils/crc32.h"
 #include <stdio.h>
 #include "inttypes.h"
 

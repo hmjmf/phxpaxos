@@ -23,7 +23,7 @@ See the AUTHORS file for names of contributors.
 
 #include <string>
 #include "udp.h"
-#include "tcp.h"
+#include "communicate/tcp/tcp.h"
 #include "phxpaxos/network.h"
 
 namespace phxpaxos 
