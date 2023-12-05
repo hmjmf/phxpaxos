@@ -27,23 +27,10 @@ cc_proto_library(
     ],
 )
 
-
 cc_library(
     name = "phxpaxos",
     srcs = glob([
-        "src/algorithm/*.cpp",
-        "src/benchmark/*.cpp",
-        "src/checkpoint/*.cpp",
-        "src/comm/*.cpp",
-        "src/communicate/*.cpp",
-        "src/config/*.cpp",
-        "src/logstorage/*.cpp",
-        "src/master/*.cpp",
-        "src/node/*.cpp",
-        "src/sm-base/*.cpp",
-        "src/test/*.cpp",
-        "src/tools/*.cpp",
-        "src/utils/*.cpp"
+        "src/**/*.cpp",
     ]),
     hdrs = glob([ 
         "src/**/*.h",
