@@ -53,8 +53,41 @@ cc_library(
     ],
 )
 
+cc_library(
+    name = "phxpaxos_plugin",
+    srcs = glob([
+        "plugin/logger_google/*.cpp",
+        "plugin/monitor/*.cpp",
+    ]),
+    hdrs = glob([ 
+        "plugin/**/*.h",
+    ]),
+    includes = [
+        "plugin/include/",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        "@com_google_glog//:glog",
+        ":phxpaxos",
+    ],
+    copts = [
+    ],
+    defines = [
+    ],
+)
+
+
 cc_binary(
     name = "phxpaxos_test",
-    srcs = ["test.cpp"],
-    deps = [":phxpaxos",]
+    srcs = [
+        "sample/phxecho/echo_server.cpp",
+        "sample/phxecho/echo_sm.cpp",
+        "sample/phxecho/main.cpp",
+        "sample/phxecho/echo_server.h",
+        "sample/phxecho/echo_sm.h",
+    ],
+    deps = [
+        ":phxpaxos",
+        ":phxpaxos_plugin",
+    ]
 )

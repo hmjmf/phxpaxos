@@ -1,12 +1,8 @@
+bazel clean
+bazel build phxpaxos_test 
 
-set -e  # exit immediately on error
-set -x  # display all commands
+bazel-bin/phxpaxos_test 127.0.0.1:10086 127.0.0.1:10086,127.0.0.1:10087,127.0.0.1:10088 >>/dev/null &
+bazel-bin/phxpaxos_test 127.0.0.1:10087 127.0.0.1:10086,127.0.0.1:10087,127.0.0.1:10088 >>/dev/null &
+bazel-bin/phxpaxos_test 127.0.0.1:10087 127.0.0.1:10086,127.0.0.1:10087,127.0.0.1:10088 >>/dev/null &
 
-git submodule update --init --recursive
-
-(cd third_party && bash ./autoinstall.sh)
-
-./autoinstall.sh
-
-make
-
+bazel clean

@@ -16,3 +16,15 @@ git_repository(
     tag = "v1.20",
     build_file = "//:build_files/leveldb.BUILD",
 )
+
+git_repository(
+    name = "com_github_gflags_gflags",
+    remote = "https://github.com/gflags/gflags.git",
+    tag = "v2.2.2"
+)
+
+git_repository(
+    name = "com_google_glog",
+    remote = "https://github.com/google/glog.git",
+    tag = "v0.6.0"
+)

@@ -14,15 +14,18 @@ public:
 class PhxEchoSM : public phxpaxos::StateMachine
 {
 public:
-    PhxEchoSM();
+    PhxEchoSM() = default;
 
     bool Execute(const int iGroupIdx, const uint64_t llInstanceID, 
-            const std::string & sPaxosValue, phxpaxos::SMCtx * poSMCtx);
+            const std::string & sPaxosValue, phxpaxos::SMCtx * poSMCtx) {
+        return true;
+    };
 
     const int SMID() const { return 1; }
 };
 
 int main() {
-    PhxEchoSM p();
+    PhxEchoSM p;
+    std::cerr << 233 << std::endl;
     return 0;
 }

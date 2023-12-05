@@ -26,6 +26,7 @@ See the AUTHORS file for names of contributors.
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
+#include <iostream>
 
 using namespace phxpaxos;
 using namespace std;
@@ -86,10 +87,19 @@ int PhxEchoServer :: RunPaxos()
     oOptions.vecGroupSMInfoList.push_back(oSMInfo);
 
     //use logger_google to print log
+    char *log_path = "./log";
+    if (access(log_path, F_OK) == -1) {
+        if (mkdir(log_path, S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH) == -1)
+        {       
+            printf("Create dir fail, path %s\n", log_path);
+            return -1;
+        }
+    }
+
     LogFunc pLogFunc;
-    ret = LoggerGoogle :: GetLogger("phxecho", "./log", 3, pLogFunc);
-    if (ret != 0)
-    {
+    ret = LoggerGoogle::GetLogger("phxecho", log_path, 3, pLogFunc);
+
+    if (ret != 0) {
         printf("get logger_google fail, ret %d\n", ret);
         return ret;
     }
